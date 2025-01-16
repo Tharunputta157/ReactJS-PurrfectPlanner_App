@@ -1,0 +1,131 @@
+.App {
+  margin : 0;
+  padding: 0;
+  height:100dvh;
+  background-color: #FFFDE7;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  background-image: url("https://www.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_14979252.htm#fromView=keyword&page=3&position=0&uuid=fcdb2dc5-8eec-4831-b1e1-b27ba675b725");
+
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+.nav-container{
+  margin:0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Navbar {
+  background-color: rgb(208, 228, 230);
+  position: relative;
+
+}
+
+a{
+  text-decoration:none ;
+}
+
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.login{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input{
+  margin: auto;
+  padding : 6px;
+  border : 2px solid gray;
+  border-radius: 8px;
+  font-size: 15px;
+  
+}
+
+
+
+.navlink{
+  color:blue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navlink:hover{
+  color: red;
+}
+
+.catfact{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.catbutton{
+  color: green;
+  width: 80px;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+  
+}
+
+.fact{
+  color:rgb(1, 10, 8);
+  margin-top: 10px;
+  font-size: 20px;
+  padding : 15px;
+}
+
+p{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.todo-button{
+  font-size: 18px;
+  margin-left : 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.taskname{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+
+.delbutton{
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+
+
+
+
