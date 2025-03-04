@@ -8,7 +8,11 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: stretch;
-  background-image: url("https://www.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_14979252.htm#fromView=keyword&page=3&position=0&uuid=fcdb2dc5-8eec-4831-b1e1-b27ba675b725");
+  background-image: linear-gradient(rgba(168, 164, 164, 0.6),rgba(204, 199, 199, 0.6)),url("cat.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
 
@@ -27,10 +31,11 @@ ul{
   
 }
 .Navbar {
-  background-color: rgb(208, 228, 230);
+  background-color: rgba(156, 181, 188, 0.558);
   position: relative;
 
 }
+
 
 a{
   text-decoration:none ;
@@ -50,7 +55,24 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: white;
+  
 
+}
+.login .submit{
+  background-color:rgb(181, 208, 179)
+}
+.login input{
+  border: 1px solid rgb(44, 45, 38);
+
+  
 }
 
 input{
@@ -77,22 +99,29 @@ input{
 .catfact{
   padding: 10px;
   font-size: 20px;
+  margin-top: 50px;
 }
 
 .catbutton{
-  color: green;
+
   width: 80px;
   padding: 5px;
   font-size: 20px;
   border: 1px solid gray;
   border-radius: 5px;
+  cursor: pointer;
+  background-color: hsl(135, 66%, 84%);
+  margin-top: 20px;
   
   
 }
+.catbutton:hover{
+  background-color: hsl(135, 66%, 94%);
+}
 
 .fact{
-  color:rgb(1, 10, 8);
-  margin-top: 10px;
+  color:rgb(40, 25, 9);
+  font-family: sans-serif;
   font-size: 20px;
   padding : 15px;
 }
@@ -109,23 +138,44 @@ p{
   border: 1px solid gray;
   border-radius: 5px;
 }
+.addtask input{
+  font-size: 18px;
+}
 
 .taskname{
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 25px;
+  font-family: sans-serif;
 
 }
 
 .delbutton{
-  font-size: 15px;
+  font-size: 20px;
   border: 1px solid gray;
   border-radius: 5px;
 }
 
+.homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+}
 
 
+.homepage h1{
+  color:rgb(26, 31, 31)
+}
+.addtask{
+  margin-top: 80px;
 
+}
+.addtask h2{
+  font-family: sans-serif;
+  font-size: 25px;
+}
 
 

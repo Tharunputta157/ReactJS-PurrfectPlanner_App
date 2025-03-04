@@ -30,15 +30,15 @@ export const Login = () =>{
         
         <form class= "login" onSubmit={handleSubmit(onSubmit)}>
             <h2>Login</h2>
-            <input class="name" type= "text" placeholder="enter your name"   {...register("name")}/>
+            <input class="name" type= "text" placeholder="Enter your name"   {...register("name")}/>
             <p>{errors.name?.message}</p>
-            <input class="email" type= "text" placeholder="enter your email"  {...register("gmail")}/>
+            <input class="email" type= "text" placeholder="Enter your email"  {...register("gmail")}/>
             <p>{errors.gmail?.message}</p>
-            <input class="age" type= "number" placeholder="enter your age"  {...register("age")}/>
+            <input class="age" type= "number" placeholder="Enter your age"  {...register("age")}/>
             <p>{errors.age?.message}</p>
-            <input  class="pwd" type= "password" placeholder="enter your password"  {...register("pwd")}/>
+            <input  class="pwd" type= "password" placeholder="Enter your password"  {...register("pwd")}/>
             <p>{errors.pwd?.message}</p>
-            <input  class="cpwd" type= "password" placeholder="confirm your password"  {...register("cpwd")}/>
+            <input  class="cpwd" type= "password" placeholder="Confirm your password"  {...register("cpwd")}/>
             <p>{errors.cpwd?.message}</p>
             <input class="submit" type="submit" />
         </form>

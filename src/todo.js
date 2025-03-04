@@ -16,6 +16,8 @@ function Todo() {
     }
 
     SetList([...list,task1])
+    console.log("----------------------------")
+    console.log(text)
 
   }
 
@@ -40,7 +42,7 @@ function Todo() {
       <div className='addtask'>
         <h2>Add your tasks here</h2>
         <input type="text" onChange={handleChange}/>
-        <button class= "todo-button" onClick={addTask}>add task</button>
+        <button class= "todo-button" onClick={addTask}>Add task</button>
       </div>
       <div className='list'>
 
@@ -48,7 +50,7 @@ function Todo() {
           return(
             <div classname ="task-container">
               <div class="taskname">{task.name}</div>
-              <button class= "delbutton" onClick={()=>handleDelete(task.id)}>delete</button>
+              <button class= "delbutton" onClick={()=>handleDelete(task.id)}>Delete</button>
               
             </div>
           )

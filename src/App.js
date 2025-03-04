@@ -16,7 +16,7 @@ function App() {
   
 
   return (
-    <div className='App' style={{backgroundImage : "url('https://www.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_14979252.htm#fromView=keyword&page=3&position=0&uuid=fcdb2dc5-8eec-4831-b1e1-b27ba675b725')"}}>
+    <div className='App'>
       <Router>
         <div className='nav'>
           <Navbar />
